@@ -1,3 +1,1 @@
-wget -c --user=reader --password=123456 http://hk.nexus.op.easemob.com/nexus/service/local/repositories/releases/content/com/easemob/ai/robotapi/nlu-server/1.7.4.FINAL/nlu-server-1.7.4.FINAL.jar
-wget -c --user=reader --password=123456 http://hk.nexus.op.easemob.com/nexus/service/local/repositories/releases/content/com/easemob/ai/robotapi/faq-server/1.20.6.FINAL/faq-server-1.20.6.FINAL.jar
-wget -c --user=reader --password=123456 http://hk.nexus.op.easemob.com/nexus/service/local/repositories/releases/content/com/easemob/robot/robot-training-server/47.2.30.FINAL/robot-training-server-47.2.30.FINAL.jar
+http://hk.nexus.op.easemob.com/nexus/service/local/repositories/releases/content/com/easemob/ai/robotapi/nlu-server/1.7.14.FINAL/nlu-server-1.7.14.FINAL.jar
