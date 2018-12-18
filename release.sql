@@ -1,1 +1,0 @@
-ALTER TABLE `training_user_entity` MODIFY COLUMN `value` varchar(60) DEFAULT NULL;
