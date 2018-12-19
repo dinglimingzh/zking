@@ -1,0 +1,1 @@
+insert into rest_options(optionId,tenantId,optionName,optionValue,createDateTime,lastUpdateDateTime)value(uuid(),9,'customSensitiveWord','true',NOW(),NOW());
