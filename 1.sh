@@ -1,1 +1,0 @@
-wget -t 0 -c --user=reader --password=123456 http://hk.nexus.op.easemob.com/nexus/service/local/repositories/releases/content/com/easemob/kefu/fe/rs/AI-Multi-Session/v1.0.24.final/AI-Multi-Session-v1.0.24.final.zip
