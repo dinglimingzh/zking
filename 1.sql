@@ -1,0 +1,1 @@
+ALTER TABLE `robot_config_info` MODIFY `config_json_values` MEDIUMTEXT;
