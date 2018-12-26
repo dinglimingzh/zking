@@ -1,2 +1,2 @@
-use weichat;
+use webapp;
 insert into weixinopendata values("wx32d75948cf76216d","6ff72118a469522c1d87aec8ce0e4aa1","componentAccessToken",1484015805621,"componentVerifyTicket",1484015805621,"componentPreauthcode",1484015805621);
