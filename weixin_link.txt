@@ -1,2 +1,0 @@
-https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx70067db48a6a585b&redirect_uri=https://kefurobot.zking.com&response_type=code&scope=snsapi_userinfo&state=a-zA-Z0-9#wechat_redirect
-
