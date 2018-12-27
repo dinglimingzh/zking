@@ -8,7 +8,6 @@ weichat.weixin.open.token=test1234567890nihao
 #公众号消息加解密Key
 weichat.weixin.open.encodingaeskey=f5bLeik5BmeQ5OnvmGIloGwx2IWVQ3LmoA5m2MPMpNK
 
-
 #环信官方微博创建的微应用【环信在线】的appkey
 weichat.weibo.appkey=869840255
 #环信官方微博创建的微应用【环信在线】的setcret
