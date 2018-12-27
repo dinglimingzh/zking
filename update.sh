@@ -1,3 +1,1 @@
-wget -t 0 -c --user=reader --password=123456 http://hk.nexus.op.easemob.com/nexus/service/local/repositories/releases/content/com/easemob/ai/robotapi/dialog-system/1.20.11.FINAL/dialog-system-1.20.11.FINAL.jar
-
-wget -t 0 -c --user=reader --password=123456 http://hk.nexus.op.easemob.com/nexus/service/local/repositories/releases/content/com/easemob/ai/robotapi/robotapi-ui/1.20.11.FINAL/robotapi-ui-1.20.11.FINAL.jar
+wget -t 0 -c --user=reader --password=123456 http://hk.nexus.op.easemob.com/nexus/service/local/repositories/releases/content/com/easemob/kefu/webim/product/kefu-webim/plugin_47.26.74_final/kefu-webim-plugin_47.26.74_final.zip
