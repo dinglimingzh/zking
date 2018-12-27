@@ -1,2 +1,2 @@
 use webapp;
-insert into weixinopendata values("wx32d75948cf76216d","6ff72118a469522c1d87aec8ce0e4aa1","componentAccessToken",1484015805621,"componentVerifyTicket",1484015805621,"componentPreauthcode",1484015805621);
+insert into weixinopendata values("wx70067db48a6a585b","ca56c72abf816fb09a57f8cf3d7ecc7e","componentAccessToken",1484015805621,"componentVerifyTicket",1484015805621,"componentPreauthcode",1484015805621);
