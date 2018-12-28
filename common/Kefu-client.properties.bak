@@ -1,0 +1,169 @@
+# all FeignClient configs
+
+# since kce 2.0.0(spring-cloud Dalston.RELEASE), the default value is: false
+feign.hystrix.enabled=true
+
+ribbon.ConnectTimeout=2000
+ribbon.ReadTimeout=2000
+# 本地去Consul拉取服务列表建个时间
+ribbon.ServerListRefreshInterval=5000
+# 认证服务服务间调用链接超时时间
+Authentication.ribbon.ConnectTimeout=1000
+# 认证服务服务间调用读取超时时间
+Authentication.ribbon.ReadTimeout=1000
+
+# 默认断路器关
+hystrix.command.default.circuitBreaker.enabled=false
+hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds=4000
+# hystrix thread pool
+hystrix.threadpool.default.coreSize=50
+# 认证服务服务间调用线程池数量
+hystrix.threadpool.Authentication.coreSize=50
+# 认证服务服务间调用最大等待队列
+hystrix.threadpool.Authentication.maxQueueSize=300
+hystrix.threadpool.Authentication.queueSizeRejectionThreshold=300
+
+# SessionHistory
+service.client.sessionHistory.feign.name=SessionHistory
+service.client.sessionHistory.feign.url=${args.session-history.url}
+
+# WebappReadonly
+service.client.webapp.readonly.feign.name=WebappReadonly
+service.client.webapp.readonly.feign.url=${args.webapp.readonly.url}
+
+# Robot
+service.client.robot.feign.name=KFRobot
+service.client.robot.feign.url=${args.robot.url}
+
+service.client.gateway.callcenter.feign.name=GatewayCallcenterRouteway
+service.client.gateway.callcenter.feign.url=${args.callcenter.gateway.url}
+
+service.client.qualityReview.feign.name=ServiceQuality
+service.client.qualityReview.feign.url=${args.quality.url}
+
+# 新东方访客信息服务地址
+service.client.xdfvisitor.feign.name=IntegrationXdfVisitor
+service.client.xdfvisitor.feign.url=${args.xdf.url}
+
+# 多租户
+service.client.org.feign.name=OrgReadwrite
+service.client.org.feign.url=${args.org.url}
+
+# WebappReadWrite
+service.client.webappreadwrite.feign.name=WebappReadwrite
+service.client.webappreadwrite.feign.url=${args.webapp.readwrite.url}
+
+# callcenter地址
+service.client.callcenter.feign.name=CallCenterServerReadwrite
+service.client.callcenter.feign.url=${args.callcenter.server.url}
+
+# timeplan 地址
+service.client.timeplan.feign.name=TimePlan
+service.client.timeplan.feign.url=${args.timeplan.url}
+
+
+# CRM服务发现
+service.client.crm.feign.name=CrmRestServer
+service.client.crm.feign.url=${args.crm.url}
+
+#processing session server
+service.client.processingsession.feign.name=ProcessingSession
+service.client.processingsession.feign.url=
+
+# Ticket
+service.client.ticket.readwrite.feign.name=TicketsReadwrite
+service.client.ticket.readwrite.feign.url=${args.ticket.readwrite.url}
+service.client.ticket.readonly.feign.name=TicketsReadonly
+service.client.ticket.readonly.feign.url=${args.ticket.readonly.url}
+
+# gatewaywechat
+service.client.gateway.wechat.feign.name=GatewayWechatRouteway
+service.client.gateway.wechat.feign.url=${args.wechat.gateway.url}
+
+# 统计查询StatisticQuery
+service.client.statisticquery.feign.name=DaasGatewayFeign
+service.client.statisticquery.feign.url=${args.statistic-query.url}
+
+# message server 消息中心
+service.client.messageserver.feign.name=MessageServer
+service.client.messageserver.feign.url=${args.messageserver.url}
+
+
+service.client.permission.feign.name=PermissionRestServer
+service.client.permission.feign.url=${args.permissionserver.url} 
+
+#pay
+service.client.pay.feign.name=payRestServer
+service.client.pay.feign.url=${args.payserver.url} 
+
+#management
+service.client.management.feign.name=Management
+service.client.management.feign.url=${args.managementserver.url} 
+
+#OfficialAccount服务发现
+service.client.official-account.feign.name=OfficialAccountServer
+service.client.official-account.feign.url=${args.officalaccountserver.url}
+
+#enquiry server
+service.client.enquiry.feign.name=EnquiryReadWrite
+service.client.enquiry.feign.url=
+
+#Slack服务发现
+service.client.slack.feign.name=GatewaySlackRouteway
+service.client.slack.feigin.url=
+
+#marketing-task
+service.client.marketing-task.feign.name=MarketingTaskServer
+service.client.marketing-task.feign.url=
+
+# ServiceSessionAttributes 服务发现
+service.client.session-attributes.feign.name=ServiceSessionAttributes
+service.client.session-attributes.feign.url=
+
+# WebGrayServer
+service.client.gray.feign.name=WebGrayServer
+service.client.gray.feign.url=${args.WebGrayServer.url}
+# ================ queue strategy ===================
+service.client.queue.strategy.feign.name=QueueStrategyServer
+service.client.queue.strategy.feign.url=
+
+# ================ system message ===================
+service.client.system.message.feign.name=SystemMessage
+service.client.system.message.feign.url=
+
+# ================ waiting session ===================
+service.client.waiting-session.feign.name=VisitorQueueTimeout
+service.client.waiting-session.feign.url=
+
+# ================ service session attribute ===================
+service.client.servicesession.attribute.feign.name=ServiceSessionAttributes
+service.client.servicesession.attribute.feign.url=
+
+# ================ verification-code server ===================
+service.client.verification-code.feign.name=VerificationCode
+service.client.verification-code.feign.url=${args.verification-code.url}
+
+
+# ================ emoj server ===================
+service.client.emoj.feign.name=EmojServer
+service.client.emoj.feign.url=
+
+# ================ robot integration ===================
+service.client.robot.integration.feign.name=KefuRobotIntegration
+service.client.robot.integration.feign.url=
+
+# ================= 短信 ===========================
+service.client.sms.feign.name=SmsServer
+service.client.sms.feign.url=${args.service.client.sms.feign.url}
+
+# ================ kefuim-gateway =======================
+service.client.kefuim-gateway.feign.name=GatewayKefuIMRouteway
+service.client.kefuim-gateway.feign.url=
+
+# =================== sina weibo ==============================
+service.client.sina.weibo.feign.name=SinaWeiboServer
+service.client.sina.weibo.feign.url=${args.service.client.sina.weibo.feign.url}
+
+# ================= kefu-mall ===========================
+service.client.mall.feign.name=MallRestServer
+service.client.mall.feign.url=

@@ -1,0 +1,58 @@
+# robotapi redis 
+args.robotapi.redis.host=kefu-app1
+args.robotapi.redis.port=6379
+
+# robotapi mysql
+args.robotapi.database.url=jdbc:mysql://kefu-app1:3306/robotapi?useUnicode=true&characterEncoding=utf8&autoReconnect=true&failOverReadOnly=false&rewriteBatchedStatements=TRUE&useSSL=false
+args.robotapi.database.username=kefu_easemob
+args.robotapi.database.password=KEFU_easemob
+
+# robotapi cassandra
+args.robotapi.cassandra.contactpoints=kefu-app1,kefu-app2,kefu-app3
+args.robotapi.cassandra.port=9042
+args.robotapi.cassandra.keyspace=robot
+
+# robotapi elasticsearch
+args.robotapi.elasticsearch.cluster.name=elasticsearch
+args.robotapi.elasticsearch.host=kefu-app1
+args.robotapi.elasticsearch.port=9300
+
+# server
+args.robotapi.configcenter.feign.name=ConfigCenterServer
+args.robotapi.configcenter.feign.url=http://configcenter.robotapi.easemob.com
+
+args.robotapi.usercenter.feign.name=UserCenterServer
+args.robotapi.usercenter.feign.url=http://usercenter.robotapi.easemob.com
+
+args.robotapi.kg.feign.name=KgServer
+args.robotapi.kg.feign.url=http://kg.robotapi.easemob.com
+
+args.robotapi.session.server.name=SessionServer
+args.robotapi.session.server.url=http://session.robotapi.easemob.com
+
+args.robotapi.dmconfig.feign.name=DmConfigServer
+args.robotapi.dmconfig.feign.url=http://dmconfig.robotapi.easemob.com
+
+args.robotapi.modelstorage.feign.name=ModelStorageServer
+args.robotapi.modelstorage.feign.url=http://modelstorage.robotapi.easemob.com
+
+args.robotapi.nlu.feign.name=NluServer
+args.robotapi.nlu.feign.url=http://nlu.robotapi.easemob.com
+
+args.robotapi.domainintention.feign.name=DomainIntentionServer
+args.robotapi.domainintention.feign.url=http://di.robotapi.easemob.com
+
+args.robotapi.commonintention.feign.name=CommonIntentionServer
+args.robotapi.commonintention.feign.url=http://ci.robotapi.easemob.com
+
+args.robotapi.intentionclassify.feign.name=IntentionClassifyServer
+args.robotapi.intentionclassify.feign.url=http://intentionclassify.robotapi.easemob.com
+
+args.robotapi.dialogsystem.feign.name=DialogSystemServer
+args.robotapi.dialogsystem.feign.url=http://ds.robotapi.easemob.com
+
+args.robotapi.faq.feign.name=FaqServer
+args.robotapi.faq.feign.url=http://faq.robotapi.easemob.com
+
+args.robotapi.datahandle.feign.name=DataHandleServer
+args.robotapi.datahandle.feign.url=http://datahandle.robotapi.easemob.com
