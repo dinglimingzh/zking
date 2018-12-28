@@ -1,2 +1,1 @@
-curl -X POST "https://kefurobot.zking.com/v1/weixin/open/wx001/callback?msg_signature=222"
-curl -X POST "http://kefurobot.zking.com/v1/weixin/open/wx001/callback?msg_signature=222"
+wget --user=reader --password=123456 http://hk.nexus.op.easemob.com/nexus/service/local/repositories/releases/content/com/easemob/kefu/webim/product/kefu-webim/plugin_47.26.75_final/kefu-webim-plugin_47.26.75_final.zip

@@ -1,1 +1,0 @@
-curl  -X POST https://api.weixin.qq.com/cgi-bin/component/api_component_token -d '{"component_appid":"wxcb9ac571e60145dd","component_appsecret":"fbfc5563824c72f4ffc17bef89374f4f","component_verify_ticket":"ticket@@@xYKgCrtXCnyd6l4Tb0dF-RhoBSTAVqZz6Ln9zMCgZWSb3zhaZzHrsSzy-dnfWxt79kwcvEZ3KM1manElcHkW5g"}'
