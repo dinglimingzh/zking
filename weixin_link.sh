@@ -1,1 +1,1 @@
-curl https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=wx70067db48a6a585b&secret=ca56c72abf816fb09a57f8cf3d7ecc7e
+curl  -X POST https://api.weixin.qq.com/cgi-bin/component/api_component_token -d '{"component_appid":"wxcb9ac571e60145dd","component_appsecret":"fbfc5563824c72f4ffc17bef89374f4f","component_verify_ticket":"ticket@@@xYKgCrtXCnyd6l4Tb0dF-RhoBSTAVqZz6Ln9zMCgZWSb3zhaZzHrsSzy-dnfWxt79kwcvEZ3KM1manElcHkW5g"}'

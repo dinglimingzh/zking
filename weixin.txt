@@ -1,14 +1,15 @@
+# ======================= 微博微信 configuration =============
 #环信在微信开放平台上开通的第三方平台[环信移动客服]对应的appId
-weichat.weixin.open.component_appid=wx70067db48a6a585b
-
+args.weichat.weixin.open.component_appid=wx70067db48a6a585b
 #环信在微信开放平台上开通的第三方平台[环信移动客服]对应的appsecret
-weichat.weixin.open.component_appsecret=ca56c72abf816fb09a57f8cf3d7ecc7e
+args.weichat.weixin.open.component_appsecret=ca56c72abf816fb09a57f8cf3d7ecc7e
+
 #公众号消息校验Token
-weichat.weixin.open.token=test1234567890nihao
+args.weichat.weixin.open.token=test1234567890nihao
 #公众号消息加解密Key
-weichat.weixin.open.encodingaeskey=f5bLeik5BmeQ5OnvmGIloGwx2IWVQ3LmoA5m2MPMpNK
+args.weichat.weixin.open.encodingaeskey=f5bLeik5BmeQ5OnvmGIloGwx2IWVQ3LmoA5m2MPMpNK
 
 #环信官方微博创建的微应用【环信在线】的appkey
-weichat.weibo.appkey=869840255
+args.weichat.weibo.appkey=869840255
 #环信官方微博创建的微应用【环信在线】的setcret
-weichat.weibo.app_secret=79a68a6a61d5023d6729795b17dcaee1
+args.weichat.weibo.app_secret=79a68a6a61d5023d6729795b17dcaee1
