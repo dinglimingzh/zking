@@ -1,1 +1,0 @@
-wget --user=reader --password=123456 http://hk.nexus.op.easemob.com/nexus/service/local/repositories/releases/content/com/easemob/cec/kefu-lite-webapp-starter/1.0.37.FINAL/kefu-lite-webapp-starter-1.0.37.FINAL.jar
