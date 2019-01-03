@@ -1,1 +1,1 @@
-wget --user=reader --password=123456 http://hk.nexus.op.easemob.com/nexus/service/local/repositories/releases/content/com/easemob/kefu/kefu-robot-integration-server/47.4.15.FINAL/kefu-robot-integration-server-47.4.15.FINAL.jar
+wget --user=reader --password=123456 http://hk.nexus.op.easemob.com/nexus/service/local/repositories/releases/content/com/easemob/cec/kefu-lite-webapp-starter/1.0.37.FINAL/kefu-lite-webapp-starter-1.0.37.FINAL.jar
