@@ -1,2 +1,1 @@
-select * from options where optionName = 'WelcomeMsgTenantEnable' and tenantId = 7;
-select * from options where optionName = 'WelcomeMsgTenantContent' and tenantId = 7;
+select * from robot where tenantId=43 and robotRouteId='7b721036-5b84-4805-b4e7-4832bb586269';
