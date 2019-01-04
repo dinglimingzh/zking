@@ -1,1 +1,1 @@
-curl http://kefurobot.zking.com/v1/webimplugin/tenants/robots/welcome
+wget --user=reader --password=123456 http://hk.nexus.op.easemob.com/nexus/service/local/repositories/releases/content/com/easemob/kefu/webim/product/kefu-webim/plugin_47.26.77_final/kefu-webim-plugin_47.26.77_final.zip
