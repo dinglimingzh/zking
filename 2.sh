@@ -1,8 +1,1 @@
-curl -X GET http://88.22.34.28:9200/session_detail/session_detail/_search 
-{
-    "query": {
-        "term" : {
-            "agentId": "aee4969c-c4a9-44d9-a1ba-453a07ac137a"
-        }
-    }
-}
+wget --user=reader --password=123456 http://hk.nexus.op.easemob.com/nexus/service/local/repositories/releases/content/com/easemob/kefu/webim/product/kefu-webim/plugin_47.26.79_final/kefu-webim-plugin_47.26.79_final.zip
