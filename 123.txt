@@ -1,1 +1,0 @@
-curl -X GET -H "Content-Type: application/json" -H "Cache-Control: no-cache" -H "Postman-Token: a98a0797-7a1d-93a9-6854-acf0951bc9b7" "http://modelstorage.robotapi.easemob.com/v1/robotapi/model-stroage/1/modelfiles"
